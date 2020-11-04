@@ -1,0 +1,179 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mula</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111111;
+        }
+        
+        nav {
+            width: 100%;
+            background-color: rgb(71, 71, 71);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 15px 0 15px 0;
+        }
+        
+        nav ul a {
+            color: blanchedalmond;
+            text-decoration: none;
+            margin: 0 15px 0 0px;
+            border: 2px solid rgb(36, 36, 36);
+            font-size: 20px;
+            background-color: rgb(50, 50, 51);
+            padding: 15px 10px 15px 10px;
+        }
+        
+        header {
+            width: 100%;
+            height: 550px;
+            background-color: #111111;
+            display: inline-block;
+        }
+        
+        .uno {
+            background-color: #111111;
+        }
+        
+        .dos {
+            background-image: url("941878.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .contenedor {
+            display: grid;
+            grid-template-columns: 23% 70%;
+            grid-template-rows: 550px;
+            grid-gap: 30px;
+            background-color: #111111;
+        }
+        
+        .uno img {
+            position: relative;
+            top: 30px;
+            width: 70%;
+            margin: auto;
+            display: block;
+            border: 2px solid rgb(65, 64, 64);
+            box-shadow: 5px 5px 15px 5px rgb(51, 51, 51);
+        }
+        
+        .uno h1 {
+            text-align: center;
+            position: relative;
+            top: 70px;
+            color: rgb(196, 196, 196);
+        }
+        
+        .uno p {
+            position: relative;
+            top: 77px;
+            width: 70%;
+            text-align: center;
+            margin: auto;
+            color: rgb(177, 176, 176);
+        }
+        
+        .dos iframe {
+            position: relative;
+            top: 60px;
+            width: 70%;
+            height: 450px;
+            border-radius: 50px;
+            box-shadow: 5px 5px 15px 5px rgb(54, 54, 54);
+        }
+        
+        footer {
+            width: 100%;
+            height: 20px;
+            background-color: black;
+            position: fixed;
+            bottom: 0;
+        }
+        
+        footer p {
+            text-align: center;
+        }
+        
+        footer p a {
+            color: rgb(145, 144, 144);
+        }
+        
+        @media screen and (max-width: 1200px) {
+            .contenedor {
+                grid-template-columns: 1fr;
+            }
+            .uno img {
+                top: 30px;
+                width: 40%;
+            }
+            .dos iframe {
+                top: 60px;
+                width: 70%;
+                height: 450px;
+                margin: auto;
+                display: block;
+                margin-bottom: 160px;
+            }
+            @media screen and (max-width: 800px) {
+                .uno img {
+                    top: 30px;
+                    width: 40%;
+                }
+                .dos iframe {
+                    top: 60px;
+                    width: 90%;
+                }
+                @media screen and (max-width: 300px) {}
+                .dos iframe {
+                    width: 100%;
+                    height: 400px;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">video</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="contenedor">
+            <div class="uno">
+                <img src="1056886.jpg">
+                <h1>mulan</h1>
+                <p>Narra la historia de Mulán, una intrépida joven lo arriesga todo por amor a su familia y a su país hasta convertirse en una de las mayores guerreras de la historia de China. Cuando el emperador de China decreta que un hombre de cada familia
+                    debe servir en el Ejército Imperial para defender al país de los invasores del norte, Hua Mulán. Remake del clásico de Disney.</p>
+            </div>
+            <div class="dos">
+
+                <iframe src="https://hqq.to/e/bkNQVlp1aUd3UzZWK0p5ZU5mb1lzQT09" webkitAllowFullScreen mozallowfullscreen allowfullscreen frameborder="0" scrolling="no"></iframe>
+
+            </div>
+        </div>
+    </header>
+    <footer>
+        <p><a href="https://www.facebook.com/josefrans">Copyright © 2011. josefrans- All Rights Reserved </a></p>
+    </footer>
+</body>
+
+</html>
